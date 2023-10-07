@@ -1,0 +1,449 @@
+
+
+
+*{
+    box-sizing: border-box;
+    }
+    
+
+    .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    }
+        
+
+    html{
+    font-size: 62.5%;
+    font-family: 'Libre Franklin', sans-serif;
+    }
+    
+    header{
+    border: 1px solid white;
+    }
+    
+    .left-top{
+    border: 1px solid white;   
+    width: 25%;
+    float: left;
+    font-size: 1.9rem;
+    }
+    
+    .button{
+    display:inline-block ;
+    border: 1px solid white;
+    padding: 4px 8px;
+    border-radius: 1px;
+    background: #557b95;
+    color: white;
+    }
+    .push{
+    margin-right: 1px;
+    }
+    
+    .buttons{
+    font-size: 1.5rem;
+    }
+    
+    .move{
+    float: right;
+    margin-top: 32px;
+    } 
+    
+    .fa-solid{
+    font-size: 2.1rem;
+    padding-left: 22px;
+    
+    }
+    
+    .middle{
+    border: 1px solid white;
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-size: 1.9rem;
+    }
+    
+    .middle li{
+    padding-left: px;
+    
+    }
+    
+    .right-top{
+    border: 1px solid white;
+    width: 25%;
+    float: left;
+    text-align: center;
+    }
+    
+        
+    .right-top a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    }
+    
+        
+    .right-top img{
+    width: 33%;
+    }
+
+    .middle a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    }
+    
+    .middle img{
+    width: 62%;
+    }
+
+    li{
+    display: inline-block;
+    }
+    
+    .bottom-nav{
+    border:1px solid black;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 1rem;
+    } 
+    
+    .bottom-nav li{
+    padding-left: 29px;
+    font-size: 1.6rem;
+    }
+    
+    .bottom-nav a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    }
+    
+    .main-section{
+    width: 100%;
+    border: 1px solid white;
+    }
+    
+    .text-top-left{
+    width: 25%;
+    border: 1px solid white;
+    float: left;
+    font-size: 2.3rem;
+    }
+    
+    .slight-larger{
+    font-size: 2.5rem;
+    }
+
+
+    .text{
+    border:1px solid white;
+    width: 100%;
+    } 
+    
+    .text-img{
+    border: 1px solid white;
+    width: 75%;
+    float: left;
+    border-right: 1px solid black;
+    }
+    
+    .main-img{
+    float: left;
+    width: 75%;
+    }
+    
+    .main-img img{
+    width: 97%;
+    }
+
+    .right-side{
+    border: 1px solid white;
+    width: 25%;
+    float: right;
+    font-size: 2.5rem;
+    }
+    
+    .statue{
+    float: left;
+    border-bottom: 1px solid white;
+    }
+
+    .statue img{
+    width: 87%;
+    }
+
+    
+    .egg-plant{
+    float: left;
+    border-bottom: 1px solid white;
+    }
+    
+
+    .yelloweggs{
+    border-right: 1px solid white;
+    }
+    
+    .plant{
+    border-left: 1px solid white;
+
+    }
+    
+    .share{
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+    border-bottom: 1px solid grey;
+    }
+
+    .share img{
+    width: 80%;
+    }
+    
+    .bottom-arts{
+    float: left;
+    width: 100%;
+    }
+    
+    .leftxxx{
+    width: 70%;
+    border: 1px solid white;
+    float: left;
+    border-top: 1px solid black;
+    }
+    
+    .circle{
+    width: 30%;
+    border: 1px solid white;
+    float: left;
+    border-top: 1px solid black;
+    }
+    
+    .circleeeee{
+    border-radius: 47px;
+    margin: 102px 0px 0px 56px;
+    }
+    
+    .circle img{
+    width: 49%;
+    }
+
+    .face-art{
+    width: 100%;
+    border: 1px solid white;
+    }
+    
+    .lady-art{
+    width: 100%;
+    border: 1px solid white;
+    }
+    
+    
+    .text-lad{
+    border:1px solid white;
+    width: 50%;
+    float: left;
+    }
+    
+    .img-lad{
+    width: 50%;
+    border: 1px solid white;
+    float: left;
+    }
+    
+    .img-lad img{
+    width: 59%;
+    }
+
+    .girl{
+    margin: 23px 0px 0px 91px;
+    }
+    
+    .left-bottom{
+    border-top: 1px solid black;
+    float: left;
+    width: 75%;
+    border-bottom: 1px solid black;
+    }
+    
+    .left-bottom img{
+    width: 97%;
+    }
+
+    .bottom-left-text{
+    width: 30%;
+    border: 1px solid white;
+    float: left;
+    font-size: 2.6rem;
+    }
+    
+    .bottom-image{
+    width: 70%;
+    float: left;
+    }
+    
+
+    @media (max-width:2298px){ 
+        .girl{
+        margin: 0;
+    }
+        .img-lad{
+        text-align: center;
+        }
+
+        .circle{
+        text-align: center;
+        }
+
+        .circleeeee{
+        margin: 102px 0px 0px 0px;
+        }
+    }
+
+
+    @media (max-width:2008px){
+        .text-top-left{ 
+        width: 30%;
+        }
+
+        .main-img{
+        width: 70%;
+        }
+    }
+
+    @media (max-width:1904px){
+        .text-top-left{
+        width: 35%;
+        }
+
+        .main-img{
+        width: 65%;
+        }
+    }
+
+
+    @media (max-width:1786px){
+        .text-top-left{
+            width: 40%;
+        }
+        .main-img{
+            width: 60%;
+        }
+    }
+
+    @media(max-width:1762px){
+        .bottom-nav li:nth-child(2n+2){
+            display: none;
+        }
+
+
+    }
+
+    @media (max-width:1646px){
+       .bottom.text{
+        width: 34%;
+       } 
+       .bottom-image{
+        width: 66%;
+
+       }
+
+    }
+
+
+    @media(max-width:1390px){
+        .main-img{
+            display: none;
+        }
+
+        .text-top-left{
+        width: 100%;
+        }
+        .share{
+        width: 100%;
+        }
+
+        .bottom-arts{
+        display: none;
+
+        }
+
+        .bottom-left-text{
+        width: 33%;
+        }
+    }
+
+
+    @media(max-width:1240px){
+        .statue img{
+        display: none;
+        }
+
+    }
+
+    @media(max-width:1180px){
+        .bottom-image{
+        display: none;
+        }
+
+        .bottom-left-text{
+        width: 100%;
+        font-size: 2.3rem;
+        }
+    }
+
+    @media(max-width:1068px){
+        #move-it{
+        width: 45%;
+        margin: 0;
+        }
+    }
+
+    @media(max-width:944px){
+        .bottom-nav li:nth-child(2n+2){
+            display: none;
+        }
+    }
+
+    @media(max-width:800px){
+        .text-img{
+            width: 100%;
+        }
+
+        .left-bottom{
+            width: 100%;
+        }
+
+        .right-side{
+            width: 100%;
+        }
+
+        .share{
+            width: 50%;
+        }
+
+        .bottom-nav ul{
+            display: none;
+        }
+
+        .be-gone{
+            display: none;
+        }
+
+        .fa-solid {
+        font-size: 3rem;
+        }
+
+        .middle img{
+            width: 85%;
+        }
+
+        #move-it{
+            display: none;
+        }
+    }
